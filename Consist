@@ -17,7 +17,7 @@ local TeleportService = game:GetService("TeleportService")
 -- / Tween table & function
 local TweenTable = {
     Default = {
-        TweenInfo.new(0.17, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut, 0, false, 0)
+        TweenInfo.new(0.7, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut, 0, false, 0)
     }
 }
 local CreateTween = function(name, speed, style, direction, loop, reverse, delay)
