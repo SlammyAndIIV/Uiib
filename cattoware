@@ -20,12 +20,12 @@ local camera = game.Workspace.CurrentCamera
 _G.TitleSize = 16.2
 _G.Color = Color3.fromRGB(148,0,211)
 _G.Color2 = Color3.fromRGB(255,255,255)
-
+_G.BackgroundID = 5553946656
 library.theme = {
     fontsize = 15,
     titlesize = _G.TitleSize,
     font = Enum.Font.Code,
-    background = "rbxassetid://5553946656",
+    background = "rbxassetid://".._G.BackgroundID,
     tilesize = 90,
     cursor = true,
     cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f",
