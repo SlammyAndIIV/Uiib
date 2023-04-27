@@ -19,7 +19,7 @@ local mouse = player:GetMouse()
 local camera = game.Workspace.CurrentCamera
 _G.TitleSize = 16.2
 _G.Color = Color3.fromRGB(148,0,211)
-_G.Color2 = Color3.fromRGB(255,255,255
+_G.Color2 = Color3.fromRGB(255,255,255)
 
 library.theme = {
     fontsize = 15,
